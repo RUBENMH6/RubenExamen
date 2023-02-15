@@ -22,8 +22,8 @@ public class Game {
                 int rowFrom = Integer.parseInt(items[0]);
                 int colFrom = Integer.parseInt(items[1]);
                 Position from = new Position(rowFrom,colFrom);
-                int rowTo = Integer.parseInt(items[0]);
-                int colTo = Integer.parseInt(items[1]);
+                int rowTo = Integer.parseInt(items[2]);
+                int colTo = Integer.parseInt(items[3]);
                 Position to = new Position(rowTo,colTo);
                 Movement movement = new Movement(from,to);
                 list.add(movement);
